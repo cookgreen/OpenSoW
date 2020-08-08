@@ -1,0 +1,30 @@
+MapFormat: 11
+
+RequiresMod: sow
+
+Title: Shell Map
+
+Author: OpenSoW Development Team
+
+Tileset: DESERT
+
+MapSize: 130,130
+
+Bounds: 1,1,128,128
+
+Visibility: Lobby, Shellmap
+
+Categories: Maps
+
+Players:
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Faction: Random
+	PlayerReference@Creeps:
+		Name: Creeps
+		NonCombatant: True
+		Faction: Random
+
+Actors:
