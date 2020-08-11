@@ -1,0 +1,4 @@
+World:
+	MusicPlaylist:
+		BackgroundMusic: menu
+		DisableWorldSounds: true

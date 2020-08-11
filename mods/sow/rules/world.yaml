@@ -1,12 +1,12 @@
 ^BaseWorld:
 	Inherits: ^Palettes
 	AlwaysVisible:
+	MusicPlaylist:
+		VictoryMusic: Statistic
+		DefeatMusic: Statistic
 	ActorMap:
 	ScreenMap:
 	Selection:
-	MusicPlaylist:
-		VictoryMusic: score
-		DefeatMusic: map
 	TerrainGeometryOverlay:
 	DebugVisualizations:
 	Locomotor@FOOT:

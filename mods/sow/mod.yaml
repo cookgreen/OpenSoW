@@ -125,6 +125,9 @@ ChromeLayout:
 Notifications:
 	sow|audio/notifications.yaml
 
+Music:
+	sow|audio/music.yaml
+
 Translations:
 	sow|english.yaml
 

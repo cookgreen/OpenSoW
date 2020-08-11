@@ -28,3 +28,5 @@ Players:
 		Faction: Random
 
 Actors:
+
+Rules: rules.yaml
