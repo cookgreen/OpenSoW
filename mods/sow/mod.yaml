@@ -251,6 +251,7 @@ ModContent:
 			Required: true
 	Sources:
 		sow|installer/sow.yaml
+		sow|installer/sow-steam.yaml
 		sow|installer/ra/aftermath.yaml
 		sow|installer/ra/allies95.yaml
 		sow|installer/ra/cnc95.yaml
