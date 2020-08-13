@@ -1,4 +1,4 @@
-sow: State of War and Warmonger Classic 2001
+sow-steam: State of War and Warmonger Classic 2001
 	Type: Install
 	RegistryPrefixes: HKEY_LOCAL_MACHINE\Software\, HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\
 	RegistryKey: Valve\Steam
