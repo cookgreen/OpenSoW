@@ -31,13 +31,22 @@ namespace OpenRA.Mods.DarkColony.Traits
 			if (self.Owner.InternalName != "Netrual")
 			{
 				var killer = e.Attacker;
+				if (killer.Owner.InternalName == "Overmind")
+				{
+					// Create a Overmind version
+				}
+				else if (killer.Owner.InternalName == "Brotherhood")
+				{
+					// Create a Brotherhood version
+				}
+
 				self.ChangeOwner(killer.Owner);
 			}
 			else
 			{
 				var result = (from pair in playerDamageDic
-							 orderby pair.Value descending
-							 select pair).ToList();
+							  orderby pair.Value descending
+							  select pair).ToList();
 				var maxDamagePlayer = result.First().Key;
 				self.ChangeOwner(maxDamagePlayer);
 			}
