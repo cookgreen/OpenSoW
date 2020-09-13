@@ -83,9 +83,9 @@ namespace OpenRA.Mods.SoW.SpriteLoaders
 
 								for (int j = 0; j < readPixels; j++)
 								{
-									int color16 = reader.ReadInt16();
-									int color32 = (((color16 >> 8) & 0xf8) << 24) | (((color16 >> 3) & 0xfc) << 16) | ((color16 & 0x1f) << 11) | 0xff;
-									frame.Data[x + y * frame.Size.Width] = Convert.ToByte(color32);
+									byte color8 = reader.ReadByte();
+									reader.ReadByte();
+									frame.Data[x + y * frame.Size.Width] = color8;
 									x++;
 								}
 							}
