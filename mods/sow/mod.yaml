@@ -24,6 +24,7 @@ Packages:
 	~^Content/sow/Sounds/Sfx/GroundUnits/Walker
 	~^Content/sow/Sounds/Sfx/GroundUnits/Turets
 	~^Content/sow/Sounds/Speech
+	~^Content/sow/units
 	.
 	$sow: sow
 	./mods/common: common
@@ -187,7 +188,7 @@ MapGrid:
 
 SoundFormats: Aud, Wav
 
-SpriteFormats: ShpD2, ShpTD, TmpRA, TmpTD, ShpTS, PngSheet
+SpriteFormats: ShpD2, ShpTD, TmpRA, TmpTD, ShpTS, PngSheet, Ps6
 
 SpriteSequenceFormat: TilesetSpecificSpriteSequence
 	TilesetExtensions:
@@ -199,7 +200,7 @@ SpriteSequenceFormat: TilesetSpecificSpriteSequence
 ModelSequenceFormat: PlaceholderModelSequence
 
 AssetBrowser:
-	SupportedExtensions: .SPR, .BTS
+	SupportedExtensions: .ps6
 
 GameSpeeds:
 	slowest:
