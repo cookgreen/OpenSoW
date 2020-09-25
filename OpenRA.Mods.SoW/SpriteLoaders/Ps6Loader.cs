@@ -20,7 +20,7 @@ namespace OpenRA.Mods.SoW.SpriteLoaders
 
 			public bool DisableExportPadding { get; set; }
 
-			public SpriteFrameType Type => SpriteFrameType.Indexed;
+			public SpriteFrameType Type { get { return SpriteFrameType.BGRA; } }
 		}
 
 		static ISpriteFrame[] ParseFrames(BinaryReader reader)
@@ -59,7 +59,7 @@ namespace OpenRA.Mods.SoW.SpriteLoaders
 
 				if (frame.Size.Width > 0 && frame.Size.Height > 0)
 				{
-					frame.Data = new byte[frame.Size.Width * frame.Size.Height];
+					frame.Data = new byte[frame.Size.Width * frame.Size.Height * 4];
 
 					for (int y = 0; y < frame.Size.Height; y++)
 					{
@@ -83,9 +83,12 @@ namespace OpenRA.Mods.SoW.SpriteLoaders
 
 								for (int j = 0; j < readPixels; j++)
 								{
-									byte color8 = reader.ReadByte();
-									reader.ReadByte();
-									frame.Data[x + y * frame.Size.Width] = color8;
+									short color16 = reader.ReadInt16();
+
+									frame.Data[(x + y * frame.Size.Width) * 4 + 0] = (byte)((color16 >> 8) & 0xf8);
+									frame.Data[(x + y * frame.Size.Width) * 4 + 1] = (byte)((color16 >> 3) & 0xfc);
+									frame.Data[(x + y * frame.Size.Width) * 4 + 2] = (byte)((color16 & 0x1f) << 11);
+									frame.Data[(x + y * frame.Size.Width) * 4 + 3] = 0xff;
 									x++;
 								}
 							}
