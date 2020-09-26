@@ -2,7 +2,7 @@ Metadata:
 	Title: OpenSoW
 	Version: release-20200503
 
-PackageFormats: Mix
+PackageFormats: Mix, Data
 
 Packages:
 	~^Content/ra/v2/
@@ -45,7 +45,6 @@ Packages:
 	~hires1.mix
 	~desert.mix
 	~sprites.data
-	~sprites.info
 	sow|bits
 	sow|bits/desert
 	sow|uibits

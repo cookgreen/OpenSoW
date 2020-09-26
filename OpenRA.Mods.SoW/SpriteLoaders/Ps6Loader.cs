@@ -110,10 +110,21 @@ namespace OpenRA.Mods.SoW.SpriteLoaders
 		{
 			metadata = new TypeDictionary();
 
-			if (Path.GetExtension(((FileStream)s).Name) != ".ps6")
+			if (s is SegmentStream)
 			{
-				frames = null;
-				return false;
+				if (Path.GetExtension(((FileStream)((SegmentStream)s).BaseStream).Name) != ".data")
+				{
+					frames = null;
+					return false;
+				}
+			}
+			else if (s is FileStream)
+			{
+				if (Path.GetExtension(((FileStream)s).Name) != ".ps6")
+				{
+					frames = null;
+					return false;
+				}
 			}
 
 			using (var reader = new BinaryReader(s))
