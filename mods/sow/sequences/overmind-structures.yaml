@@ -1,0 +1,152 @@
+air.blue: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\blue\_air.ps6
+		Start: 3
+		Length: 22
+	make: builds\blue\_air.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\blue\_air.ps6
+		Start: 25
+		Length: 1
+	netural: builds\blue\_air.ps6
+		Start: 27
+        
+base.blue: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\blue\_base.ps6
+		Start: 3
+		Length: 1
+	make: builds\blue\_base.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\blue\_base.ps6
+		Start: 3
+		Length: 1
+	netural: builds\blue\_base.ps6
+		Start: 6
+        
+heavy.blue: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\blue\_heavy.ps6
+		Start: 3
+		Length: 10
+	make: builds\blue\_heavy.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\blue\_heavy.ps6
+		Start: 15
+		Length: 1
+	netural: builds\blue\_heavy.ps6
+		Start: 17
+        
+light.blue: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\blue\_light.ps6
+		Start: 3
+		Length: 10
+	make: builds\blue\_light.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\blue\_light.ps6
+		Start: 15
+		Length: 1
+	netural: builds\blue\_light.ps6
+		Start: 17
+        
+medium.blue: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\blue\_med.ps6
+		Start: 3
+		Length: 10
+	make: builds\blue\_med.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\blue\_med.ps6
+		Start: 15
+		Length: 1
+	netural: builds\blue\_med.ps6
+		Start: 17
+        
+mine.blue: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\blue\_mine.ps6
+		Start: 3
+		Length: 10
+	make: builds\blue\_mine.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\blue\_mine.ps6
+		Start: 15
+		Length: 1
+	netural: builds\blue\_mine.ps6
+		Start: 17
+        
+rlab.blue: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\blue\_rlab.ps6
+		Start: 3
+		Length: 10
+	make: builds\blue\_rlab.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\blue\_rlab.ps6
+		Start: 15
+		Length: 1
+	netural: builds\blue\_rlab.ps6
+		Start: 17
+        
+walker.blue: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\blue\_walker.ps6
+		Start: 3
+		Length: 7
+	make: builds\blue\_walker.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\blue\_walker.ps6
+		Start: 11
+		Length: 1
+	netural: builds\blue\_walker.ps6
+		Start: 13
+        
+wind.blue: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\blue\_wind.ps6
+		Start: 3
+		Length: 10
+	make: builds\blue\_wind.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\blue\_wind.ps6
+		Start: 15
+		Length: 1
+	netural: builds\blue\_wind.ps6
+		Start: 17

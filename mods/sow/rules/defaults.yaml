@@ -14,6 +14,7 @@
 		CameraPitch: 85
 	QuantizeFacingsFromSequence:
 	RenderSprites:
+		Palette: player
 
 ^1x1Shape:
 	HitShape:
@@ -336,15 +337,6 @@
 	WithSpriteBody:
 	RepairableBuilding:
 	EngineerRepairable:
-	SpawnActorsOnSell@allies:
-		ActorTypes: e1, e1, e1
-		Factions: america, germany, england, france, korea
-	SpawnActorsOnSell@soviets:
-		ActorTypes: e2, e2, e2, e2
-		Factions: cuba, libya, iraq, russia
-	SpawnActorsOnSell@yuris:
-		ActorTypes: init, init, init
-		Factions: yuri
 	MustBeDestroyed:
 		RequiredForShortGame: true
 	CaptureNotification:

@@ -1,0 +1,62 @@
+air.blue:
+	Inherits: ^Building
+	Inherits@shape: ^2x2Shape
+	Building:
+		Footprint: xx xx
+		Dimensions: 2, 2
+	Selectable:
+		Bounds: 220, 180, 0, -35
+	Health:
+		HP: 1000
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 8c0
+	Valued:
+		Cost: 0
+	Production:
+		Produces: Support
+	Tooltip:
+		Name: Radar
+	ProductionBar@Support:
+		ProductionType: Support
+
+base.blue:
+	Inherits: ^Building
+	Tooltip:
+		Name: Headquarters
+
+heavy.blue:
+	Inherits: ^Building
+	Tooltip:
+		Name: Heavy factory
+
+light.blue:
+	Inherits: ^Building
+	Tooltip:
+		Name: Light factory
+
+medium.blue:
+	Inherits: ^Building
+	Tooltip:
+		Name: Medium factory
+
+mine.blue:
+	Inherits: ^Building
+	Tooltip:
+		Name: Gold mine
+
+rlab.blue:
+	Inherits: ^Building
+	Tooltip:
+		Name: Laboratory
+
+walker.blue:
+	Inherits: ^Building
+	Tooltip:
+		Name: Robot factory
+
+wind.blue:
+	Inherits: ^Building
+	Tooltip:
+		Name: Wind power plant

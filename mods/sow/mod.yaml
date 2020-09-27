@@ -54,11 +54,13 @@ MapFolders:
 
 Rules:
 	sow|rules/defaults.yaml
+	sow|rules/overmind-structures.yaml
 	sow|rules/palettes.yaml
 	sow|rules/player.yaml
 	sow|rules/world.yaml
     
 Sequences:
+	sow|sequences/overmind-structures.yaml
 	sow|sequences/misc.yaml
 
 TileSets:
