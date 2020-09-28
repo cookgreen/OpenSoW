@@ -1,6 +1,27 @@
 Cursors:
-	mouse.shp: terrain
+	cursor.ps6: terrain
 		default:
 			Start: 0
 			X: -16
 			Y: -12
+		select:
+			Start: 16
+			Length: 18
+		move:
+			Start: 24
+			Length: 8
+		attack:
+			Start: 32
+			Length: 8
+		repair:
+			Start: 48
+			Length: 8
+		occupy:
+			Start: 56
+			Length: 8
+		upgrade:
+			Start: 64
+			Length: 8
+		rally:
+			Start: 72
+			Length: 8

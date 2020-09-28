@@ -54,12 +54,14 @@ MapFolders:
 
 Rules:
 	sow|rules/defaults.yaml
+	sow|rules/brotherhood-structures.yaml
 	sow|rules/overmind-structures.yaml
 	sow|rules/palettes.yaml
 	sow|rules/player.yaml
 	sow|rules/world.yaml
     
 Sequences:
+	sow|sequences/brotherhood-structures.yaml
 	sow|sequences/overmind-structures.yaml
 	sow|sequences/misc.yaml
 

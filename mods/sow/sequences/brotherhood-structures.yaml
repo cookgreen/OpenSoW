@@ -1,0 +1,134 @@
+air.green: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\green\_air.ps6
+		Start: 3
+		Length: 22
+	make: builds\green\_air.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\green\_air.ps6
+		Start: 25
+		Length: 1
+        
+base.green: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\green\_base.ps6
+		Start: 3
+		Length: 1
+	make: builds\green\_base.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\green\_base.ps6
+		Start: 3
+		Length: 1
+        
+heavy.green: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\green\_heavy.ps6
+		Start: 3
+		Length: 10
+	make: builds\green\_heavy.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\green\_heavy.ps6
+		Start: 15
+		Length: 1
+        
+light.green: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\green\_light.ps6
+		Start: 3
+		Length: 10
+	make: builds\green\_light.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\green\_light.ps6
+		Start: 15
+		Length: 1
+        
+medium.green: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\green\_med.ps6
+		Start: 3
+		Length: 10
+	make: builds\green\_med.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\green\_med.ps6
+		Start: 15
+		Length: 1
+        
+mine.green: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\green\_mine.ps6
+		Start: 3
+		Length: 10
+	make: builds\green\_mine.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\green\_mine.ps6
+		Start: 15
+		Length: 1
+        
+rlab.green: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\green\_rlab.ps6
+		Start: 3
+		Length: 10
+	make: builds\green\_rlab.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\green\_rlab.ps6
+		Start: 15
+		Length: 1
+        
+walker.green: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\green\_walker.ps6
+		Start: 3
+		Length: 7
+	make: builds\green\_walker.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\green\_walker.ps6
+		Start: 11
+		Length: 1
+        
+wind.green: 
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: builds\green\_wind.ps6
+		Start: 3
+		Length: 10
+	make: builds\green\_wind.ps6
+		Start: 0
+		Length: 3
+	damage-idle: builds\green\_wind.ps6
+		Start: 15
+		Length: 1

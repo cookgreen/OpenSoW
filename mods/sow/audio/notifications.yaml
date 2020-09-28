@@ -1,118 +1,35 @@
 Speech:
 	Notifications:
-		AbombAvailable: aavail1
-		AbombLaunchDetected: alaunch1
-		AbombPrepping: aprep1
-		AbombReady: aready1
-		AirUnitLost: aunitl1
-		AlliedForcesApproaching: aappro1
-		AlliedForcesFallen: afallen1
-		AlliedForcesSelected: aselect1
-		AlliedReinforcementsArrived: aarrive1
-		AlliedReinforcementsEast: aarive1
-		AlliedReinforcementsNorth: aarrivn1
-		AlliedReinforcementsSouth: aarrivs1
-		AlliedReinforcementsWest: aarrivw1
-		AtomBombLaunchDetected: atlnch1
-		AtomBombPrepping: atprep1
-		BaseAttack: baseatk1
-		Building: abldgin1
-		BuildingCannotPlaceAudio: nodeply1
-		BuildingCaptured: strucap1
-		BuildingInfiltrated: bldginf1
-		BuildingInProgress: progres1
-		BuildingProgress: bldgprg1
-		Cancelled: cancld1
-		ChronosphereCharging: chrochr1
-		ChronosphereReady: chrordy1
-		ChronosphereTestSuccessful: chroyes1
-		CommandCenterAttack: cmdcntr1
-		CommandoFreed: comndof1
-		CommandoRescued: comndor1
-		ConstructionComplete: conscmp1
-		ControlCenterDeactivated: cntlded1
-		ConvoyApproaching: convyap1
-		ConvoyUnitLost: convlst1
-		CreditsStolen: credit1
-		EnemyUnitsApproaching: enmyapp1
-		EnemyDetected: enmydet
-		ExplosiveChargePlaced: xploplc1
-		FirstObjectiveMet: 1objmet1
-		FourtyMinutesRemaining: 40minr
-		HarvesterAttack:
-		InsufficientFunds: nofunds1
-		InsufficientPower: nopowr1
-		IronCurtainCharging: ironchg1
-		IronCurtainReady: ironrdy1
-		KosyginFreed: kosyfre1
-		KosyginRescued: kosyres1
-		Leave: bct1
-		Lose: misnlst1
-		LowPower: lopower1
-		MercenaryFreed: mercf1
-		MercenaryRescued: mercr1
-		MissionAccomplished: misnwon1
-		MissionFailed: misnlst1
+		02MinutesToReinforce: 07-02minutes-to-reinforce
+		05MinutesToReinforce: 07-05minutes-to-reinforce
+		10MinutesToReinforce: 07-10minutes-to-reinforce
+		20MinutesToReinforce: 07-20minutes-to-reinforce
+		5000CreditsArrived: 02-5000-credits-arrived
+		5000ResearchArrived: 02-5000-research-arrived
+		AdvancerDestroyed: 03-advancer-destroyed
+		AdvancerDisenaged: 03-advancer-disengaged
+		AirforceDestroyed: 05-airforce-destroyed
+		AsteroidReady: 05-asteroid-ready
+		BomberReady: 05-bomber-ready
+		BuildingCaptured: 06-building-captured
+		BuildingLost: 06-building-lost
+		BuildingRepaired: 06-building-repaired
+		BuildingUpgraded: 06-building-upgraded
+		CarryAllReady: 05-carryall-ready
+		FighterReady: 05-fighter-ready
+		TriplerReady: 05-tripler-ready
+		MissionAccomplished: 01-mis-complet
+		MissionFailed: 01-mis-failed
 		MissionTimerInitialised: mtimein1
-		NavalUnitLost: navylst1
-		NewOptions: newopt1
-		NoBuild: nobuild1
-		ObjectiveMet: objmet1
-		ObjectiveNotMet: objnmet1
-		ObjectiveNotReached: objnrch1
-		ObjectiveReached: objrch1
-		OnHold: onhold1
-		OperationControlTerminated: opterm1
-		PrimaryBuildingSelected: pribldg1
-		ReinforcementsArrived: reinfor1
-		Repairing: repair1
-		SatelliteLaunched: satlnch1
-		SecondObjectiveMet: 2objmet1
-		SelectTarget: slcttgt1
-		SignalFlare: flare1
-		SignalFlareEast: flaree1
-		SignalFlareNorth: flaren1
-		SignalFlareSouth: flares1
-		SignalFlareWest: flarew1
-		SilosNeeded: silond1
-		SonarPulseReady: pulse1
-		SovietEmpireFallen: sovefal1
-		SovietEmpireSelected: sovemp1
-		SovietForcesApproaching: sovfapp1
-		SovietForcesFallen: sovforc1
-		SovietReinforcementsArrived: sovrein1
-		SpyPlaneReady: spypln1
-		StartGame: bctrinit
-		GameLoaded: load1
-		GameSaved: save1
-		StructureDestroyed: strckil1
-		StructureSold: strusld1
-		TanyaFreed: tanyaf1
-		TanyaRescued: tanyar1
-		TargetFreed: targfre1
-		TargetRescued: targres1
-		TenMinutesRemaining: 10minr
-		ThirdObjectiveMet: 3objmet1
-		ThirtyMinutesRemaining: 30minr
-		TimerStarted: timergo1
-		TimerStopped: timerno1
-		Training: train1
-		TwentyMinutesRemaining: 20minr
-		UnitArmorUpgraded: armorup1
-		UnitFirepowerUpgraded: firepo1
-		UnitFull: unitful1
-		UnitLost: unitlst1
-		UnitReady: unitrdy1
-		UnitRepaired: unitrep1
-		UnitSold: unitsld1
-		UnitSpeedUpgraded: unitspd1
-		UnitStolen: unitsto
-		WarningOneMinuteRemaining: 1minr
-		WarningTwoMinutesRemaining: 2minr
-		WarningThreeMinutesRemaining: 3minr
-		WarningFourMinutesRemaining: 4minr
-		WarningFiveMinutesRemaining: 5minr
-		Win: misnwon1
+		NewTurrentAvaiable: 04-new-turret-available
+		NewTechLevelAvaiable: 03-new-techlevel-available
+		NoSpaceForUnits: 03-no-space-for-units
+		ReinforcementsArrived: 01-renforcement
+		GameLoaded: 01-game-saved
+		GameSaved: 01-game-saved
+		TurrentDestroyed: 04-turret-destroyed
+		TurrentRepaired: 04-turret-repaired
+		Win: 01-mis-complet
 
 Sounds:
 	Notifications:
@@ -126,7 +43,7 @@ Sounds:
 		DisablePower: bleep11
 		EnablePower: bleep12
 		ChatLine: rabeep1
-		ClickSound: ramenu1
+		ClickSound: MainMenu-OK
 		ClickDisabledSound:
 		Beacon: beepslct
 		AlertBuzzer: buzzy1
