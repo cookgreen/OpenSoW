@@ -1,1 +1,7 @@
-placeholder
+advancer.blue:
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: units\chi1_blue.ps6
+		Length: 32

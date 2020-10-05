@@ -61,8 +61,11 @@ Rules:
 	sow|rules/world.yaml
     
 Sequences:
+	sow|sequences/brotherhood-units.yaml
+	sow|sequences/overmind-units.yaml
 	sow|sequences/brotherhood-structures.yaml
 	sow|sequences/overmind-structures.yaml
+	sow|sequences/specials.yaml
 	sow|sequences/misc.yaml
 
 TileSets:

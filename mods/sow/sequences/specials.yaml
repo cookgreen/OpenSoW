@@ -1,0 +1,60 @@
+bomber:
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	left: specials\bomber_l.ps6
+		Length: 2
+	right: specials\bomber_r.ps6
+		Length: 2
+        
+bomber.bomb:
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	left: specials\bomba_l.ps6
+		Length: 2
+	right: specials\bomba_r.ps6
+		Length: 2
+    
+    
+carryall:
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	landing: specials\carryall.ps6
+		Length: 4
+
+fighter:
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: specials\fighter.ps6
+		Length: 1
+
+fighter.bomb:
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: specials\fighter_bomb.ps6
+		Length: 7
+
+meteor:
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: specials\meteor.ps6
+		Length: 15
+
+tripler:
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: specials\tripler.ps6
+		Length: 9

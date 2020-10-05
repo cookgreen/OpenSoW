@@ -1,1 +1,7 @@
-placeholder
+advancer.green:
+	Defaults:
+		UseTilesetCode: false
+		UseTilesetSuffix: false
+		AddExtension: false
+	idle: units\chi1_green.ps6
+		Length: 32
